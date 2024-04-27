@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* CustomScrollbar.css */
+
+.custom-scrollbar {
+  /* Set the height and width of the container */
+  overflow: auto;
+}
+
+/* Style the scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px; /* Width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #000; /* Track color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #888; /* Thumb color */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Thumb color on hover */
+}
